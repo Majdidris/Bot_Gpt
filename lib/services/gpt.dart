@@ -7,8 +7,7 @@ class Gpt {
     var uri = Uri.parse(link);
     var header = {
       "Content-Type": "application/json",
-      "Authorization":
-          "Bearer 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"
+      "Authorization": "Bearer "
     };
     var body = {
       "model": "gpt-3.5-turbo",
